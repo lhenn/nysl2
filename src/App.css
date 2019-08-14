@@ -1,33 +1,41 @@
-.App {
-  text-align: center;
+#schedule {
+  background-image: linear-gradient(to bottom right, #67d1f5, #4e7a8a);
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.game-info{
+  display:flex;
+  background-color: white;
+  margin:3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.game-date-location{
+  display:flex;
   flex-direction: column;
-  align-items: center;
+  padding:5px 10px;
+  width:50%;
+}
+.game-date {
+  font-size:1.5rem;
+}
+.game-time, .game-location {
+  font-size: 0.9rem;
+}
+.game-location {
+  text-decoration: underline;
+}
+.game-match{
+  width:50%;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center;
+  font-size:0.8rem;
 }
-
-.App-link {
-  color: #61dafb;
+.home-team{
+  color:#202745;
+  font-weight: bold;
+  font-size:1.1rem;
+  padding: 0 2px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.opponent-team{
+  color:black;
+  font-size:1.1rem
 }
